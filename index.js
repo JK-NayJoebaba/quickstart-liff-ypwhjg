@@ -36,7 +36,11 @@ async function main() {
 }
 
 main();
-liff.login();
+if (!liff.isInClient()) {
+  if (!liff.isLoggedIn()) {
+    liff.login();
+  }
+}
 
 btnLogIn.onclick = () => {
   shareMsg();
