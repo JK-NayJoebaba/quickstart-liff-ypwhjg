@@ -6,7 +6,6 @@ const body = document.getElementById('body');
 
 // Button elements
 const btnShare = document.getElementById('btnShare');
-const btnLogIn = document.getElementById('btnLogIn');
 
 async function main() {
   // Initialize LIFF app)
@@ -22,19 +21,6 @@ async function main() {
   }
 
   btnLogIn.style.display = 'block';
-
-  if (!liff.isInClient()) {
-    if (liff.isLoggedIn()) {
-      //btnLogIn.style.display = 'none';
-      //btnShare.style.display = 'block';
-    } else {
-      //btnLogIn.style.display = 'block';
-    }
-  } else {
-    //btnShare.style.display = 'block';
-  }
-
-  //getUserProfile();
 }
 
 main();
@@ -44,10 +30,6 @@ if (!liff.isInClient()) {
     liff.login();
   }
 }
-
-btnLogIn.onclick = () => {
-  shareMsg();
-};
 
 btnShare.onclick = () => {
   shareMsg();
@@ -60,10 +42,6 @@ async function getUserProfile() {
 async function shareMsg() {
   const result = await liff.shareTargetPicker([
     {
-      //type: 'image',
-      //originalContentUrl: 'https://d.line-scdn.net/stf/line-lp/2016_en_02.jpg',
-      //previewImageUrl: 'https://d.line-scdn.net/stf/line-lp/2016_en_02.jpg',
-
       type: 'template',
       altText: 'this is a carousel template',
       template: {

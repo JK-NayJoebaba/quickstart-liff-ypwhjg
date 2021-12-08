@@ -4,7 +4,7 @@ body {
 
 button {
   display: none;
-  width: 100%;
+  width: 30%;
   padding: 8px 0;
   margin: 8px auto;
   -moz-border-radius: 8px;
@@ -18,7 +18,7 @@ p {
 
 #pictureUrl {
   margin: 0 auto;
-  width: 32%;
+  width: 70%;
   display: -moz-box;
   display: -webkit-box;
   display: box;
@@ -28,9 +28,6 @@ p {
   -webkit-box-align: center;
   box-pack: center;
   box-align: center;
-  -moz-border-radius: 256px;
-  -webkit-border-radius: 256px;
-  border-radius: 256px;
 }
 
 #accessToken,
