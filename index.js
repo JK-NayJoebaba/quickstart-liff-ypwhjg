@@ -36,6 +36,7 @@ async function main() {
 }
 
 main();
+
 if (!liff.isInClient()) {
   if (!liff.isLoggedIn()) {
     liff.login();
