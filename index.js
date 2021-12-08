@@ -36,10 +36,9 @@ async function main() {
 }
 
 main();
+liff.login();
 
 btnLogIn.onclick = () => {
-  liff.login();
-
   shareMsg();
 };
 
