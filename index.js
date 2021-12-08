@@ -21,12 +21,14 @@ async function main() {
       break;
   }
 
+  btnLogIn.style.display = 'block';
+
   if (!liff.isInClient()) {
     if (liff.isLoggedIn()) {
       //btnLogIn.style.display = 'none';
       //btnShare.style.display = 'block';
     } else {
-      btnLogIn.style.display = 'block';
+      //btnLogIn.style.display = 'block';
     }
   } else {
     //btnShare.style.display = 'block';
