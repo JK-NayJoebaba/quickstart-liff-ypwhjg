@@ -26,7 +26,7 @@ async function main() {
       //btnLogIn.style.display = 'none';
       //btnShare.style.display = 'block';
     } else {
-      //btnLogIn.style.display = 'block';
+      btnLogIn.style.display = 'block';
     }
   } else {
     //btnShare.style.display = 'block';
