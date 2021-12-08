@@ -32,11 +32,11 @@ async function main() {
     //btnShare.style.display = 'block';
   }
 
-  getUserProfile();
+  //getUserProfile();
 }
 
-main();
 liff.login();
+main();
 
 btnLogIn.onclick = () => {
   shareMsg();
