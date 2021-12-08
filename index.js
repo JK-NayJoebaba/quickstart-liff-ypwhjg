@@ -145,18 +145,18 @@ async function shareMsg() {
           {
             thumbnailImageUrl:
               'https://www.img.in.th/images/bdf69af287bcb99f8a6d027d3e095cc4.jpg',
-            title: 'Title',
-            text: 'Text',
+            title: 'สมาชิกใหม่รับ 100%',
+            text: 'ขั้นต่ำเพียง 50 บาท',
             actions: [
               {
-                type: 'message',
-                label: 'Action 1',
-                text: 'Action 1',
+                type: 'uri',
+                label: 'รับโปรโมชั่น',
+                uri: 'https://www.ufamacao.com/',
               },
               {
-                type: 'message',
-                label: 'Action 2',
-                text: 'Action 2',
+                type: 'uri',
+                label: 'แชร์กิจกรรม',
+                uri: 'https://www.ufamacao.com/',
               },
             ],
           },
