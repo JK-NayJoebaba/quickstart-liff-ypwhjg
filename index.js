@@ -21,20 +21,16 @@ async function main() {
       break;
   }
 
-  liff.login();
-
   if (!liff.isInClient()) {
     if (liff.isLoggedIn()) {
       btnLogIn.style.display = 'none';
 
-      btnShare.style.display = 'block';
+      //btnShare.style.display = 'block';
     } else {
       btnLogIn.style.display = 'block';
     }
   } else {
-    btnShare.style.display = 'block';
-
-    getUserProfile();
+    //btnShare.style.display = 'block';
   }
 
   getUserProfile();
@@ -44,6 +40,8 @@ main();
 
 btnLogIn.onclick = () => {
   liff.login();
+
+  shareMsg();
 };
 
 btnShare.onclick = () => {
