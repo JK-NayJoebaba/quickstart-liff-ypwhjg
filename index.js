@@ -138,7 +138,7 @@ async function shareMsg() {
               {
                 type: 'uri',
                 label: 'แชร์กิจกรรม',
-                uri: 'https://www.ufamacao.com/',
+                uri: 'https://liff.line.me/1656697705-2akLrXe4',
               },
             ],
           },
@@ -156,7 +156,7 @@ async function shareMsg() {
               {
                 type: 'uri',
                 label: 'แชร์กิจกรรม',
-                uri: 'https://www.ufamacao.com/',
+                uri: 'https://liff.line.me/1656697705-2akLrXe4',
               },
             ],
           },
