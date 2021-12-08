@@ -35,8 +35,8 @@ async function main() {
   //getUserProfile();
 }
 
-liff.login();
 main();
+liff.login();
 
 btnLogIn.onclick = () => {
   shareMsg();
