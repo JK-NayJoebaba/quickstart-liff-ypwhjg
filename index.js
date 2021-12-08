@@ -21,6 +21,8 @@ async function main() {
       break;
   }
 
+  liff.login();
+
   if (!liff.isInClient()) {
     if (liff.isLoggedIn()) {
       btnLogIn.style.display = 'none';
@@ -107,14 +109,12 @@ async function shareMsg() {
   ]);
 
   if (result) {
-    alert(`[${result.status}] Message sent!`);
   } else {
     const [majorVer, minorVer, patchVer] = (liff.getLineVersion() || '').split(
       '.'
     );
 
     if (minorVer === undefined) {
-      alert('ShareTargetPicker was canceled in external browser');
       return;
     }
 
@@ -123,7 +123,6 @@ async function shareMsg() {
       parseInt(minorVer) >= 10 &&
       parseInt(patchVer) > 0
     ) {
-      alert('ShareTargetPicker was canceled in LINE app');
     }
   }
 }
