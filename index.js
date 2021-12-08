@@ -20,7 +20,7 @@ async function main() {
       break;
   }
 
-  btnLogIn.style.display = 'block';
+  btnShare.style.display = 'block';
 }
 
 main();
@@ -34,10 +34,6 @@ if (!liff.isInClient()) {
 btnShare.onclick = () => {
   shareMsg();
 };
-
-async function getUserProfile() {
-  const profile = await liff.getProfile();
-}
 
 async function shareMsg() {
   const result = await liff.shareTargetPicker([
