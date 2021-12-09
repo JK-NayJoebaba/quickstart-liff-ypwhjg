@@ -47,8 +47,7 @@ async function shareMsg() {
           {
             thumbnailImageUrl:
               'https://sv1.picz.in.th/images/2021/12/10/6PdCRD.png',
-            title: 'กิจกรรมแจกเครดิตฟรี',
-            text: '@UFAMACAO',
+              
             actions: [
               {
                 type: 'uri',
