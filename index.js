@@ -64,8 +64,7 @@ async function shareMsg() {
           {
             thumbnailImageUrl:
               'https://www.img.in.th/images/bdf69af287bcb99f8a6d027d3e095cc4.jpg',
-            title: 'สมาชิกใหม่รับ 100%',
-            text: 'ขั้นต่ำเพียง 50 บาท',
+              
             actions: [
               {
                 type: 'uri',
