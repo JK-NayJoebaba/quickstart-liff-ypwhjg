@@ -10,6 +10,7 @@ const btnShare = document.getElementById('btnShare');
 async function main() {
   // Initialize LIFF app)
   await liff.init({ liffId: '1656697705-2akLrXe4' });
+  body.style.backgroundImage = "url('https://sv1.picz.in.th/images/2021/12/10/6Pd8Af.png')";
   // Try a LIFF function
   switch (liff.getOS()) {
     case 'android':
