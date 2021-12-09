@@ -46,7 +46,7 @@ async function shareMsg() {
         columns: [
           {
             thumbnailImageUrl:
-              'https://www.img.in.th/images/95256c4e9a51ea2d8904fbfad3fedfd5.jpg',
+              'https://sv1.picz.in.th/images/2021/12/10/6PdCRD.png',
             title: 'กิจกรรมแจกเครดิตฟรี',
             text: '@UFAMACAO แจกเครดิตฟรี 50 ไม่ต้องฝากก่อน',
             actions: [
