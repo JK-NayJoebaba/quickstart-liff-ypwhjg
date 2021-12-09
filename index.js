@@ -11,8 +11,6 @@ async function main() {
   // Initialize LIFF app)
   await liff.init({ liffId: '1656697705-2akLrXe4' });
 
-  document.getElementById('myDIV').style.backgroundSize = '60px 120px';
-
   // Try a LIFF function
   switch (liff.getOS()) {
     case 'android':
@@ -55,7 +53,7 @@ async function shareMsg() {
               {
                 type: 'uri',
                 label: 'สมัครรับเครดิตฟรี',
-                uri: 'https://www.ufamacao.com/',
+                uri: 'https://bit.ly/3FCVIa1',
               },
               {
                 type: 'uri',

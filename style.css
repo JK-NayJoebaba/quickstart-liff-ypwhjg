@@ -1,5 +1,7 @@
 body {
   margin: 20px;
+  background: url('https://sv1.picz.in.th/images/2021/12/10/6Pd8Af.png')
+    no-repeat;
 }
 
 button {
@@ -34,11 +36,4 @@ p {
 #utouId {
   display: block;
   overflow: auto;
-}
-
-#myDIV {
-  border: 1px solid black;
-  width: 300px;
-  height: 300px;
-  background: url('https://sv1.picz.in.th/images/2021/12/10/6Pd8Af.png') no-repeat;
 }
