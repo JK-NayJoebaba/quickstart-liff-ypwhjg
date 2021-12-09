@@ -47,7 +47,7 @@ async function shareMsg() {
           {
             thumbnailImageUrl:
               'https://sv1.picz.in.th/images/2021/12/10/6PdCRD.png',
-              
+            text: 'กิจกรรมแจกเครดิตฟรี',
             actions: [
               {
                 type: 'uri',
@@ -64,7 +64,7 @@ async function shareMsg() {
           {
             thumbnailImageUrl:
               'https://www.img.in.th/images/bdf69af287bcb99f8a6d027d3e095cc4.jpg',
-              
+            text: 'ขั้นต่ำเพียง 50 บาท',
             actions: [
               {
                 type: 'uri',
