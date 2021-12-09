@@ -10,17 +10,7 @@ const btnShare = document.getElementById('btnShare');
 async function main() {
   // Initialize LIFF app)
   await liff.init({ liffId: '1656697705-2akLrXe4' });
-
-  // Try a LIFF function
-  switch (liff.getOS()) {
-    case 'android':
-      body.style.backgroundColor = '#d1f5d3';
-      break;
-    case 'ios':
-      body.style.backgroundColor = '#eeeeee';
-      break;
-  }
-
+  body.style.backgroundColor = '#000000';
   btnShare.style.display = 'block';
 }
 

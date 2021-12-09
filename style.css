@@ -1,14 +1,20 @@
 body {
   margin: 20px;
-  background: url('https://sv1.picz.in.th/images/2021/12/10/6Pd8Af.png')
+  background: url('https://sv1.picz.in.th/images/2021/12/10/6P0Szv.jpg')
     no-repeat;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover cover;
+  padding-top: 280px;
 }
 
 button {
   display: none;
   width: 30%;
   padding: 8px 0;
-  margin: 8px auto;
+  margin: auto;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
