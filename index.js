@@ -46,7 +46,7 @@ async function shareMsg() {
         columns: [
           {
             thumbnailImageUrl:
-              'https://sv1.picz.in.th/images/2021/12/10/6PdCRD.png',
+              'https://sv1.picz.in.th/images/2021/12/10/6Pd8Af.png',
             text: 'กิจกรรมแจกเครดิตฟรี',
             actions: [
               {
